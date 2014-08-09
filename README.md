@@ -15,8 +15,6 @@ Django template with multiple environments **[local, dev, test, stage, prod]**
     django-admin.py startproject --template=https://github.com/salvadormrf/django-base-project/archive/master.zip myproject
 
 
-
-
 #### Files tree
 	.
 	├── apps
@@ -50,4 +48,14 @@ Django template with multiple environments **[local, dev, test, stage, prod]**
 	    ├── prod.txt
 	    ├── stage.txt
 	    └── test.txt
+
+
+#### TODO
+- docs
+- basic html structure | base, 400, 500
+- static assets
+- debug mode, enable static dev server
+- add debug toolbar
+- static version for assets
+- get some cool stuff from https://github.com/xenith/django-base-template and https://github.com/twoscoops/django-twoscoops-project
 
