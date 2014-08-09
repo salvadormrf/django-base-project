@@ -1,0 +1,4 @@
+# PRODUCTION dependencies go here.
+-r base.txt
+
+uWSGI==2.0.6
