@@ -18,33 +18,36 @@ Django template with multiple environments **[local, dev, test, stage, prod]**
 
 
 #### Files tree
-    .
-    ├── apps
-    │   └── testapp
-    │       ├── __init__.py
-    │       ├── admin.py
-    │       ├── models.py
-    │       ├── tests.py
-    │       └── views.py
-    ├── libs
-    ├── manage.py
-    ├── project_name
-    │   ├── __init__.py
-    │   ├── settings
-    │   │   ├── __init__.py
-    │   │   ├── base.py
-    │   │   ├── dev.py
-    │   │   ├── local.py
-    │   │   ├── prod.py
-    │   │   ├── stage.py
-    │   │   └── test.py
-    │   ├── urls.py
-    │   └── wsgi.py
-    └── requirements
-        ├── base.txt
-        ├── dev.txt
-        ├── local.txt
-        ├── prod.txt
-        ├── stage.txt
-        └── test.txt
+	.
+	├── apps
+	│   └── testapp
+	│       ├── admin.py
+	│       ├── __init__.py
+	│       ├── models.py
+	│       ├── tests.py
+	│       └── views.py
+	├── libs
+	│   └── testlib
+	│       ├── __init__.py
+	│       └── utils.py
+	├── manage.py
+	├── project_name
+	│   ├── __init__.py
+	│   ├── settings
+	│   │   ├── base.py
+	│   │   ├── dev.py
+	│   │   ├── __init__.py
+	│   │   ├── local.py
+	│   │   ├── prod.py
+	│   │   ├── stage.py
+	│   │   └── test.py
+	│   ├── urls.py
+	│   └── wsgi.py
+	└── requirements
+	    ├── base.txt
+	    ├── dev.txt
+	    ├── local.txt
+	    ├── prod.txt
+	    ├── stage.txt
+	    └── test.txt
 
