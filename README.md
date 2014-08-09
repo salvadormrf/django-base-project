@@ -12,7 +12,7 @@ Django template with multiple environments **[local, dev, test, stage, prod]**
     
     
 ### Start a new project
-    django-admin.py startproject --template=https://github.com/salvadormrf/django-base-project.git myproject
+    django-admin.py startproject --template=https://github.com/salvadormrf/django-base-project/archive/master.zip myproject
 
 
 
